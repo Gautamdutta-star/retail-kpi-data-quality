@@ -111,30 +111,30 @@ Critical data-quality failures should be investigated and resolved before the af
 
 ## 📁 Project Structure
 
-```text
-retail-kpi-data-quality/
-│
-├── KPI_Dictionary.xlsx
-├── Data_Profiling_Notebook.ipynb
-├── Data_Quality_Contract.md
-└── README.md
-```
-```
+    task-02-kpi-data-quality/
+    │
+    ├── KPI_Dictionary.xlsx
+    ├── Data_Profiling_Notebook.ipynb
+    ├── Data_Quality_Contract.md
+    └── README.md
+
 ## 📈 Key Findings
 
-The profiling process identified issues related to:
-Missing values
-Duplicate order IDs
-Invalid quantities
-Non-numeric quantities
-Invalid discount percentages
-Inconsistent categorical values
-Invalid or missing order dates
+The profiling process identified the following data-quality issues:
 
-These findings demonstrate why data-quality validation is important before using operational data for KPI reporting and business decisions.
+- **Missing values** in `order_date`, `city`, and `discount_pct`
+- **Duplicate order ID**: `RT-1004`
+- **Invalid quantity**: `RT-1006` has quantity `-1`
+- **Non-numeric quantity**: `RT-1008` contains `"two"`
+- **Invalid discount percentage**: `RT-1007` has `105%`
+- **Inconsistent categorical values** such as `Student/student` and `Paid/paid`
+- **Invalid order date**: `RT-1006` contains `2026-13-10`
+- **Missing order date**: `RT-1011`
 
-```
+These findings demonstrate why data-quality validation is important before using operational data for KPI reporting and business analysis.
+
 ## 👨‍💻 Author
-Gautam Kumar Dutta
+
+**Gautam Kumar Dutta**
+
 B.Tech Computer Science Engineering
-```
