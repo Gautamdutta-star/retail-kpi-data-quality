@@ -119,7 +119,7 @@ retail-kpi-data-quality/
 ├── Data_Quality_Contract.md
 └── README.md
 ```
-
+```
 ## 📈 Key Findings
 
 The profiling process identified issues related to:
@@ -133,6 +133,8 @@ Invalid or missing order dates
 
 These findings demonstrate why data-quality validation is important before using operational data for KPI reporting and business decisions.
 
+```
 ## 👨‍💻 Author
 Gautam Kumar Dutta
 B.Tech Computer Science Engineering
+```
