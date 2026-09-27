@@ -118,7 +118,7 @@ retail-kpi-data-quality/
 ├── Data_Profiling_Notebook.ipynb
 ├── Data_Quality_Contract.md
 └── README.md
-
+```
 
 ## 📈 Key Findings
 
